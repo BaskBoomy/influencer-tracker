@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./src", // TypeScript 소스 폴더 설정
+    "outDir": "./dist", // 컴파일 결과 폴더 설정
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts"], // src 폴더의 모든 TS 파일 포함
+  "exclude": ["node_modules"] // node_modules 제외
+}
